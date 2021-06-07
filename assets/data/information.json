@@ -1,0 +1,27 @@
+{
+    "cell": {
+        "title": "Cell Rules",
+        "description": [],
+        "items": []
+    },
+    "solution": {
+        "title": "Solution Rules",
+        "description": [],
+        "items": []
+    },
+    "regex":  {
+        "title": "Regex Examples",
+        "description": [
+            "By using regular expressions, you can generate token patterns to suit your search needs for the input you entered. Most of the characters are self-paired. For this playground the only exceptions are called special characters like asterisk (*), plus sign (+) and rounds brackets ( and ).",
+            "Here is a set of examples to use:"
+        ],
+        "items": [
+            "ab  => will match only 'ab'",
+            "a(b)*  => will match 'a','ab','abb','abbb',...",
+            "a(b)+  => will match 'ab','abb','abbb','abbbb',...",
+            "a(b)*(c)+  => will match 'ac','abc','acc','abbbbc',...",
+            "(ab)*(c)*(d)*  => will match '','ab','c','d','abcccd','ababccdds',...",
+            "(abcd)+  => will match 'abcd','abcdabcd','abcdabcdabcd',..."
+        ]
+    }
+}

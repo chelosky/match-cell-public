@@ -1,12 +1,12 @@
 {
     "cell": {
         "title": "Cell Rules",
-        "description": [],
+        "description": ["These rules applied to the behavior of each cell against to a reagent, which means that an isolated in a cell.  These rules can be composed before applying to a cell."],
         "items": []
     },
     "solution": {
         "title": "Solution Rules",
-        "description": [],
+        "description": [" These rules applied to the behavior of all cells as solution after each cell reacted to a reagent. These rules can be composed after applying to a cell in an isolated way."],
         "items": []
     },
     "regex":  {
